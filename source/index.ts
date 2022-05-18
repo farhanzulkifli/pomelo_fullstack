@@ -1,7 +1,7 @@
 import express, { Express, Request, Response } from "express";
 import initialTransactions from "./data/initialTransactions";
 import bodyParser from "body-parser";
-import cors from 'cors';
+import cors from "cors";
 
 const app: Express = express();
 const port = 3000;
